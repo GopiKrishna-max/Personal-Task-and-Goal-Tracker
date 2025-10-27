@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Task & Goal Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🧩 Personal Task & Goal Tracker</h1>
+    <p>Stay organized and track your progress across every stage — from ideas to completion.</p>
+    <div class="add-task">
+      <input type="text" id="title" placeholder="Title..." />
+      <textarea id="desc" placeholder="Description..." rows="1"></textarea>
+      <button id="addBtn">Add</button>
+    </div>
+  </header>
+
+  <div class="board">
+    <div class="column" id="backlog">
+      <h2>📝 Backlog</h2>
+    </div>
+    <div class="column" id="doing">
+      <h2>🚀 In Progress</h2>
+    </div>
+    <div class="column" id="done">
+      <h2>✅ Completed</h2>
+    </div>
+    <div class="column" id="wontdo">
+      <h2>🚫 Won’t Do</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
